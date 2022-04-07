@@ -102,6 +102,7 @@ setup(
         'scikit-learn',
         'PyWavelets~=1.1.1',
         'matplotlib'
+        'numpy==1.22.3'
     ],
     extras_require={
         'tests': ['pytest', 'pytest-cov', 'pytest-mock', 'codecov'],
